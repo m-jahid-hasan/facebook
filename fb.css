@@ -1,0 +1,156 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     
+     font-family: 'Roboto', sans-serif;
+     
+}
+.body{
+     background-color: rgba(119, 123, 124, 0.753);background-color: rgb(155, 152, 152);
+}
+
+.main{
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    
+}
+
+.header{
+     display: flex;
+     flex-direction: column;
+     
+     padding: 20px;
+     position: absolute;
+     top:30%;
+     left:10%;
+     
+}
+
+.logo{
+     color:#3b5998;
+     font-size: 60px;
+     
+     font-family: 'Mulish', sans-serif;
+}
+.content{
+     font-size: 25px;
+}
+
+.form{
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     min-height: 300px;
+     width: 395px;
+       
+}
+.formCard{
+     width:395px;
+     border-radius: 10px;
+     box-shadow:1px 1px 1px 1px gray;
+     background-color: rgb(243, 240, 236)  !important;
+}
+input,.btn{
+     width:370px;
+     height: 45px;
+     padding:5px;
+     margin:6px;
+     border-radius: 10px;
+     border:none;
+     border:1px solid rgb(206, 198, 198);
+     letter-spacing: 0.7px;
+}
+input:focus{
+     background: #d2d6dd;
+     border: none;
+     color:rgb(88, 87, 83);
+     
+}
+.div1{
+     margin-top:4px;
+}
+.btn{
+     background-color:#3b5998;
+     color:white;
+     font-size:20px;
+     border:none;
+     transition: all 0.6s;
+
+}
+.btn:hover{
+     transform:scale(1.1);
+}
+.btn2{
+     background-color: rgb(240, 240, 247);
+     color:#3b5998;
+     font-size:15px;
+     border:none;
+     border-bottom:1px solid rgb(160, 150, 150);
+     width:370px;
+     height: 40px;
+     font-weight: bold;
+     border-radius: 10px;
+     margin-top:5px;
+     transition: transform .9s;
+}
+.btn2:hover{
+     color:red;
+     transform:scale(1.1);
+}
+.btn3{
+     height:45px;
+     padding:0 9px;
+     margin:30px;
+     background: rgb(2, 131, 23);
+     color:white;
+     font-size:20px;
+     border: none;
+     border-radius: 10px;
+     transition: all 0.5s;
+}
+.btn3:hover{
+     transform:scale(1.1);
+}
+
+
+.loginPage{
+     /* border: 1px solid red; */
+     padding:2px;
+     display: flex;
+     flex-direction: column;
+     position:absolute;
+     right:10%;
+     top:20%;
+     text-align: center;
+}
+
+.text{
+     font-size: 12px;
+     margin-top:30px;
+}
+span{
+     font-weight: bold;
+}
+.footer{
+     position:absolute;
+     bottom:2%;
+     text-align: center;
+     left:45%;
+     font-size:10px;
+}
+
+
+
+@media screen and (max-width:600px){
+     .header{
+          top:2%;
+     }
+     .loginPage{
+          top:30%;
+          right:20%;
+     }
+}
